@@ -37,7 +37,7 @@
 	
 	while (noteGR.next()) {
 		var noteObj = {};
-		// use service portal helper method to get som display values
+		// use service portal helper method to get some display values
 		$sp.getRecordDisplayValues(noteObj, noteGR, 'number, title, sys_id');
 		
 		// get the first 20 characters of the description
@@ -53,15 +53,15 @@
         <sys_created_on>2017-12-12 20:12:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f5de9178db0303002049d421cf96195a</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Notes List</sys_name>
         <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
         <sys_update_name>sp_widget_f5de9178db0303002049d421cf96195a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-15 15:53:39</sys_updated_on>
+        <sys_updated_by>dennis.bui</sys_updated_by>
+        <sys_updated_on>2018-09-05 20:26:40</sys_updated_on>
         <template><![CDATA[<div class="panel panel-default">
   <div class="panel-heading clearfix">
     <h3 class="panel-title pull-left">
